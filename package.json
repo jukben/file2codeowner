@@ -1,0 +1,17 @@
+{
+  "name": "file2codeowner",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "bin": {
+    "file2codeowner": "./run"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "codeowners": "^5.1.1"
+  }
+}
